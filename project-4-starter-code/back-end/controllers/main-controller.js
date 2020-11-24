@@ -29,13 +29,27 @@ res.json("done")
 const changeArticleTitleById=(req,res)=>{
     for(let i=0;i<articles.length-1;i++){
         if(articles[i].id===req.params.id){
-            articles[i].title=req.newTitle
+            articles[i].title=req.params.newTitle
             res.json("done")
         }
     }
 }
+const changeArticleAuthorById=(req,res)=>{
+    for(let i=0;i<articles.length-1;i++){
+        if(articles[i].id===req.params.id){
+            articles[i].author=req.body.author
+            res.json("done")
+        }
+    }
+}
+const deleteArticleById=(req,res)=>{
+  
+}
+
 module.exports={
     artical,
     createNewArticle,
-    changeArticleTitleById
+    changeArticleTitleById,
+    changeArticleAuthorById,
+    deleteArticleById
 }
