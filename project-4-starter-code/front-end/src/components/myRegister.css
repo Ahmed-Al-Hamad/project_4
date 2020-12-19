@@ -1,0 +1,50 @@
+.myRegister{
+    width:30rem;
+    border:  1px solid;
+    position: relative;
+    left: 30rem;
+     top:5rem ;
+     border-radius: 9%;
+     
+}
+.widthinput{
+    width:90px;
+}
+.myBirth{
+    margin-bottom: 1rem;
+}
+.top{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.background{
+
+    height: 39rem;
+    border-radius: 2%;
+}
+.card{
+    width:18rem;
+    
+    margin: 1rem;
+}
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+}
+.conteiner{
+   display: flex;
+   background-color: #262626;
+   height: 4rem;
+   justify-content: flex-end;
+    }
+    .sub-container-1{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 2rem;
+        width: auto;
+    }
+    .inp{
+        
+        align-self: center;
+        
+    }
